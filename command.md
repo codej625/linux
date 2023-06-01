@@ -3,5 +3,5 @@
 ```linux
 dpkg -l(종료시 q)
 apt list(all list)
-sudo apt-get update(pakage update)
+sudo apt-get update(packages update)
 ```
