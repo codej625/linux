@@ -9,4 +9,6 @@ ssh "service name"
 killall -9 java(java service all kill)
 date
 sudo ln -sf /usr/share/zoneinfo/Asia/Seoul /etc/localtime(date 서울로 변경 option -sf => 강제 덮어쓰기, 일반적으론 -s)
+netstat -tnlp(port check)
+nohup java -jar my.jar &(background jar실행)
 ```
