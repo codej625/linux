@@ -12,4 +12,5 @@ sudo ln -sf /usr/share/zoneinfo/Asia/Seoul /etc/localtime(date 서울로 변경 
 netstat -tnlp(port check)
 nohup java -jar my.jar &(background jar실행)
 rm -rf(rm -> 파일삭제, -r -> 디렉토리와 모든 파일 삭제 -f(강제적으로))
+nohup {command} & exit => 백그라운드에서 실행시키고 터미널을 종료한다.
 ```
