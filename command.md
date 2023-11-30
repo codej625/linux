@@ -19,7 +19,7 @@ ex) nohup java -jar service.jar & exit
 ```
 
 ```
-mv {옵션} {파일, 디렉토리} {이동 될 위치} -> 파일을 이동시킨다.
+mv {옵션(제외가능)} {파일, 디렉토리} {이동 될 위치} -> 파일을 이동시킨다.
 ex) mv file.txt /Documents/folder
 
 * option
