@@ -5,6 +5,7 @@
 ```
 sudo apt-get update -> 패키지 업데이트
 ```
+
 ```
 killall -9 java -> 자바서비스 전체 종료
 ```
@@ -40,4 +41,10 @@ rm -r {foldername} -> 폴더를 삭제 할때
 rm -f {filename} -> 폴더, 파일을 확인하지 않고 삭제한다.
 rm file1.txt file2.txt file3.txt -> 공백을 사용하면 여러 파일을 한번에 삭제한다.
 rm -rf {filename} -> file, folder를 무조건 삭제한다.
+```
+
+```
+iptables -A PREROUTING -t nat -i eth0 -p tcp --dport 80 -j REDIRECT --to-port 8080 -> 80포트 접속시 8080포트로 리다이렉트 설정 추가
+iptables -D PREROUTING -t nat -i eth0 -p tcp --dport 80 -j REDIRECT --to-port 8080 -> 80포트 접속시 8080포트로 리다이렉트 설정 삭제
+iptables -t nat -L -> 확인
 ```
