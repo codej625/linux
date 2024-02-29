@@ -48,3 +48,7 @@ iptables -A PREROUTING -t nat -i eth0 -p tcp --dport 80 -j REDIRECT --to-port 80
 iptables -D PREROUTING -t nat -i eth0 -p tcp --dport 80 -j REDIRECT --to-port 8080 -> 80포트 접속시 8080포트로 리다이렉트 설정 삭제
 iptables -t nat -L -> 확인
 ```
+
+```
+chmod +x {filename} -> 파일 권한 변경 커맨드(chmod) + +x(실행 권한 추가) + {filename}
+```
