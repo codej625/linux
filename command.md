@@ -52,3 +52,7 @@ iptables -t nat -L -> 확인
 ```
 chmod +x {filename} -> 파일 권한 변경 커맨드(chmod) + +x(실행 권한 추가) + {filename}
 ```
+
+```
+codesign --force --deep --sign - /Applications/SpringToolSuite4.app/Contents/MacOS/SpringToolSuite4 -> STS4 인증이 깨졌을 때 설치되어 있는 경로를 수정하여 사용
+```
